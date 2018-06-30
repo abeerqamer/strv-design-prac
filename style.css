@@ -10,21 +10,23 @@ body
 .hero-heading1
 {
 
-	position: relative;
+    position: relative;
     color: #fff;
     margin-left: 100px;
+    margin-top: 100px;
     width: 100%;
     padding: 20px;
     font-size: 100px;
     font-family: "Bebas Neue";
     font-weight: bold;
     letter-spacing: 4px;
+    
 }
 
 
 .hero-content1
 {
-	position: absolute;
+    position: absolute;
     color: #fff;
     width: 100%;
     font-weight: lighter;
@@ -91,7 +93,7 @@ body
 .hero-heading4
 {
 
-	position: relative;
+    position: relative;
     color: #fff;
     margin-left: 100px;
     width: 100%;
@@ -105,7 +107,7 @@ body
 
 .hero-content4
 {
-	position: absolute;
+    position: absolute;
     color: #fff;
     width: 100%;
     font-weight: lighter;
@@ -118,7 +120,7 @@ body
 .hero-heading5
 {
 
-	position: relative;
+    position: relative;
     color: #fff;
     margin-left: 100px;
     width: 100%;
@@ -132,7 +134,7 @@ body
 
 .hero-content5
 {
-	position: absolute;
+    position: absolute;
     color: #fff;
     width: 100%;
     font-weight: lighter;
@@ -183,43 +185,9 @@ body
 /* Icon 1 */
 
 
-.hamburger {
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
-    margin-top: 30px;
-    margin-right: 30px;
-    float:right;
-    z-index: 1;
-
-}
 
 
 
-.bar1, .bar2, .bar3 {
-    width: 30px;
-    height: 4px;
-    background-color: #fff;
-    margin: 6px 0;
-    transition: 0.4s;
-    
-}
-
-
-
-
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
 
 video#bgvideo 
 {
